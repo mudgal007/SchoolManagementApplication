@@ -22,10 +22,14 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "postcss": "^8.4.20"
   },
   "eslintConfig": {
     "extends": [
